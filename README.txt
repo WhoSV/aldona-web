@@ -1,5 +1,3 @@
-Aldona Web
+# Aldona Web
 
-Basic HTML5 Web Page for Aldona Apps.
-by Vladislav Siumbeli
-vladislavsiumbeli@gmail.com
+> Basic HTML5 Web Page for Aldona Apps.
