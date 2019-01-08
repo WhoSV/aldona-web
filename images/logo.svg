@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85 85" width="85px" height="85px">
+  <defs>
+    <style>.cls-1{fill:#fff;}.cls-2{font-size:48px;fill:#98c8ec;font-family:Baskerville, Baskerville;}</style>
+  </defs>
+  <title>Layer 1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M42.5,0A42.5,42.5,0,1,1,0,42.5,42.5,42.5,0,0,1,42.5,0Z"/>
+      <g id="Layer_2-2" data-name="Layer 2">
+        <text class="cls-2" transform="translate(24.5 60.56)">V</text>
+      </g>
+    </g>
+  </g>
+</svg>
