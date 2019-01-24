@@ -183,14 +183,10 @@ html {
 
 body {
   background-color: #2798f7;
-  background-image: url('images/overlay.png'),
-    -moz-linear-gradient(45deg, #06beb6 15%, #2798f7 85%);
-  background-image: url('images/overlay.png'),
-    -webkit-linear-gradient(45deg, #06beb6 15%, #2798f7 85%);
-  background-image: url('images/overlay.png'),
-    -ms-linear-gradient(45deg, #06beb6 15%, #2798f7 85%);
-  background-image: url('images/overlay.png'),
-    linear-gradient(45deg, #06beb6 15%, #2798f7 85%);
+  background-image: url('images/overlay.png'), -moz-linear-gradient(45deg, #06beb6 15%, #2798f7 85%);
+  background-image: url('images/overlay.png'), -webkit-linear-gradient(45deg, #06beb6 15%, #2798f7 85%);
+  background-image: url('images/overlay.png'), -ms-linear-gradient(45deg, #06beb6 15%, #2798f7 85%);
+  background-image: url('images/overlay.png'), linear-gradient(45deg, #06beb6 15%, #2798f7 85%);
   color: rgba(255, 255, 255, 0.65);
 }
 
@@ -3186,7 +3182,8 @@ table.alt tbody tr td {
 #header.alt .logo img {
   display: block;
   margin: 0 auto;
-  max-width: 75%;
+  width: 90px;
+  border-radius: 100%;
 }
 
 @media screen and (max-width: 1280px) {
@@ -3266,15 +3263,10 @@ body.is-preload #header.alt .logo {
 /* Nav */
 
 #nav {
-  -moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease,
-    border-top-right-radius 0.2s ease, padding 0.2s ease;
-  -webkit-transition: background-color 0.2s ease,
-    border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease,
-    padding 0.2s ease;
-  -ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease,
-    border-top-right-radius 0.2s ease, padding 0.2s ease;
-  transition: background-color 0.2s ease, border-top-left-radius 0.2s ease,
-    border-top-right-radius 0.2s ease, padding 0.2s ease;
+  -moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+  -webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+  -ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+  transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
   background-color: #ffffff;
   color: #636363;
   position: absolute;
